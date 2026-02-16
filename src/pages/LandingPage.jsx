@@ -14,7 +14,7 @@ const LandingPage = () => {
         <Home />
         <Technology />
         <Pricing />
-        <Features />
+      //  <Features />
         <Faq />
         <Footer />
     </div>
