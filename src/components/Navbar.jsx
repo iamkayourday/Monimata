@@ -3,16 +3,15 @@ import { Link } from "react-scroll";
 const Navbar = () => {
   const navLinks = [
     { name: "Home", to: "home" },
-    { name: "Technology", to: "technology" },
-    { name: "Pricing", to: "pricing" },
     { name: "Features", to: "features" },
+    { name: "Pricing", to: "pricing" },
+    { name: "Technology", to: "technology" },
     { name: "FAQ", to: "faq" },
   ];
 
   return (
     <nav className="fixed top-0 w-full z-50 bg-[#000211]">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-        
         {/* Logo Section */}
         <div className="flex items-center gap-3 cursor-pointer">
           <div className="w-10 h-10 bg-[#3B33C0] rounded-lg flex items-center justify-center">
@@ -49,7 +48,6 @@ const Navbar = () => {
             Sign Up
           </button>
         </div>
-
       </div>
     </nav>
   );

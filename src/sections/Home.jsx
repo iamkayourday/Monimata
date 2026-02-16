@@ -1,4 +1,5 @@
 import { Play } from "lucide-react";
+import SocialProof from "../components/SocialProof";
 
 const Home = () => {
   return (
@@ -54,7 +55,7 @@ const Home = () => {
             <img
               src="/home.avif"
               alt="Monimata Dashboard"
-              className="w-full rounded-[1.8rem] h-110 opacity-90 object-cover object-top"
+              className="w-full rounded-[1.5rem] md:h-110 h-40 opacity-90 object-cover object-top"
             />
 
             {/* Subtle Overlay */}
@@ -62,6 +63,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <SocialProof />
     </section>
   );
 };
